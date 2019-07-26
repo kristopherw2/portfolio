@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212
+}
+
+.navbar {
+    background-color: #03dac6;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+.css-header {
+    display: flex;
+    flex-direction: row;
+    /*background-color: bisque;*/
+    justify-content: left;
+}
+ h1 {
+     color: #bb86fc;
+     text-align: center;
+     margin-top: 10%;
+     margin-bottom: 1%
+}
+
+.header-image {
+    height: 200px;
+    width: 150px;
+    margin-left: 18%;
+}
+
+.about-me-section {
+    background-color: #03dac6;
+    margin-left: 30px;
+    width: 45%
+ }
+
+ .about-me-section p {
+    color: #360067;
+ }
+
+
+ h2 {
+    color: #bb86fc;
+    text-align: center;
+    margin-top: 10%;
+}
+
+ .project-section {
+     /*background-color: bisque;*/
+     padding: 10px;
+     margin-top: 25px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+}
+
+ .project-images {
+     height: 150px;
+     width: 150px;
+     margin: auto
+ }
+
+ .project-section p {
+     margin: auto;
+     color: #bb86fc;
+     margin-top: 15px;
+     margin-bottom: 10px;
+ }
+
+ #project-description {
+    width: 45%;
+    background-color: #03dac6;
+    height: 200px;
+    margin-top: 10px;   
+    margin: auto auto;
+ }
+
+ #project-description p {
+   color: #360067;
+ }
