@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,14 +12,28 @@
 
 <body>
     <header>
-        <h1 class="title-about-me" id="about-me">Hello World! My name is Kristopher.</h1>       
+        <div class="contact-icons">
+            <a href="https://github.com/kristopherw2?tab=repositories"><img src="https://i.imgur.com/busBFMr.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/kristopher-williams-974792184/"><img src="https://i.imgur.com/Sq8dB8g.png" alt="linkdin"></a>
+            <a href="mailto:kristopher.williams@gmail.com"><img src="https://i.imgur.com/roRVIef.png" alt="email"></a>
+        </div>
+        <h1 class="title-about-me" id="about-me">Hello World! My name is Kristopher and I am a fullstack developer.</h1>
         <div class="css-header">
-        <img class="header-image" src="https://i.imgur.com/nIWWm9y.jpg" alt="picture of Kris">
-        <section class="about-me-section">
-            <p>This is my about me stuff</p>
-        </section>
+            <img class="header-image" src="https://i.imgur.com/nIWWm9y.jpg" alt="picture of Kris">
+            <section class="about-me-section">
+                <p>I am a graduate from the Web Development Track at Thinkful. I love coding because not only do I enjoy
+                    the thrill of solving problems, but it can be a source of creative expression. I enjoy building
+                    applications to entertain or help someone make life easier. I am always open to learning new
+                    libraries or frameworks, and taking on new challenges.
+
+                    Outside of coding I enjoy doing various things. Such as training in Olympic and Strongman lifting,
+                    fishing, and you can find me in the Forgotten Realms at least once a week as I get into a campaign
+                    of D&D.</p>
+            </section>
         </div>
     </header>
+
+
     <div class="navbar">
         <ul id="navbar-list">
             <li><a href="#about-me">About Me</a></li>
@@ -30,12 +45,15 @@
 
     <h2 id="project-top-section">Projects</h2>
     <section class="project-section">
-        <img class="project-images" src="https://i.imgur.com/P1aNlNC.png" alt="picture of sumo quiz app">
-        <p>Technologies used here</p>
+        <a class="project-images" href="https://kristopherw2.github.io/quiz-app/" target="_blank"><img
+                class="project-images" src="https://i.imgur.com/P1aNlNC.png" alt="picture of sumo quiz app"></a>
+        <p class="technologies">JS, CSS3, HTML5, jQuery</p>
         <div id="project-description">
-            <p>Hey this is my app and it does the things it's supposed to do.</p>
+            <p class="project-font-color">This project was my first web application I built. It’s used to test general
+                knowledge of sumo wrestling. I found a love for the sumo sport and noticed how little people knew about
+                it and decided to develop an app to help alleviate that.</p>
         </div>
-    </section>    
+    </section>
 
 </body>
 

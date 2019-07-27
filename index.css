@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 150%;
 }
 
 body {
-    background-color: #121212
+    background-color: #121212;
+    font-family: 'Roboto'
 }
 
 .navbar {
@@ -26,7 +28,8 @@ body {
      color: #bb86fc;
      text-align: center;
      margin-top: 10%;
-     margin-bottom: 1%
+     margin-bottom: 1%;
+     font-family: 'Archivo black' 
 }
 
 .header-image {
@@ -38,7 +41,9 @@ body {
 .about-me-section {
     background-color: #03dac6;
     margin-left: 30px;
-    width: 45%
+    width: 45%;
+    border: 2px solid #1D8A99;
+    border-radius: 7px;
  }
 
  .about-me-section p {
@@ -50,39 +55,135 @@ body {
     color: #bb86fc;
     text-align: center;
     margin-top: 10%;
+    margin-bottom: 3%;
+    font-family: 'Archivo black'
 }
 
  .project-section {
      /*background-color: bisque;*/
-     padding: 10px;
-     margin-top: 25px;
+     padding: 8px;
+     /*margin-top: 25px;*/
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     /*justify-content: center;*/
      align-content: center;
+     width: 100%;
 }
 
  .project-images {
      height: 150px;
      width: 150px;
-     margin: auto
+     margin: auto;
  }
 
- .project-section p {
+ .technologies {
      margin: auto;
      color: #bb86fc;
-     margin-top: 15px;
-     margin-bottom: 10px;
+     margin-top: 5px;
+     /*margin-bottom: 10px;*/
  }
 
  #project-description {
     width: 45%;
     background-color: #03dac6;
-    height: 200px;
-    margin-top: 10px;   
+     /*height: 200px;*/
+    /*margin-top: */   
     margin: auto auto;
+    border: 2px solid #1D8A99;
+    border-radius: 7px;
  }
 
- #project-description p {
-   color: #360067;
+ .project-font-color {
+    color: #360067;
+ }
+
+ a:link {
+     text-decoration: none;
+ }
+
+/* li {
+     cursor: pointer;
+ } */
+
+ .project-images:hover {  
+    cursor: pointer;
+    opacity: .9;
+    filter: blur(1px);
+    background: linear-gradient (red, yellow);    
+}
+
+
+ @media screen and (max-width: 320px){
+    
+    
+    .navbar {
+        visibility: hidden;
+    }
+
+    .contact-icons img {
+        height: 15%;
+        width: 15%;
+        padding: 1% 0 0 1%;
+    }
+
+    /*#navbar-list li {
+        display: inline;
+        font-family: 'Roboto';
+        font-size: 16px;
+        padding: 3px;
+        margin-left: 3px;
+    }*/
+
+    h1{
+        font-family: 'Archivo Black';
+        font-size: 95%; 
+    }
+
+    .css-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-image {
+        height: 150px;
+        width: 125px;
+        /* margin-left: 18%; */
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .about-me-section {
+        background-color: #03dac6;
+        margin: auto;
+        width: 95%;
+        margin-top: 10px;
+        border: 2px solid #1D8A99;
+        border-radius: 7px;
+        padding: 2%
+     }
+
+     .about-me-section p, #project-description p {
+         font-size: 85%;
+     }
+
+     h2 {
+         font-size: 110%;
+    }
+
+
+
+    .project-section p {
+        font-size: 65%;
+    }
+
+    #project-description {
+        background-color: #03dac6;
+        margin: auto;
+        width: 100%;
+        margin-top: 10px;
+        border: 2px solid #1D8A99;
+        border-radius: 7px;
+        padding: 2%
+    }
+
  }
