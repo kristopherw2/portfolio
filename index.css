@@ -187,3 +187,78 @@ body {
     }
 
  }
+
+ @media screen and (max-width: 768px){
+    
+    
+    .navbar {
+        visibility: hidden;
+    }
+
+    .contact-icons img {
+        height: 15%;
+        width: 15%;
+        padding: 1% 0 0 1%;
+    }
+
+    /*#navbar-list li {
+        display: inline;
+        font-family: 'Roboto';
+        font-size: 16px;
+        padding: 3px;
+        margin-left: 3px;
+    }*/
+
+    h1{
+        font-family: 'Archivo Black';
+        font-size: 95%; 
+    }
+
+    .css-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-image {
+        height: 150px;
+        width: 125px;
+        /* margin-left: 18%; */
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .about-me-section {
+        background-color: #03dac6;
+        margin: auto;
+        width: 95%;
+        margin-top: 10px;
+        border: 2px solid #1D8A99;
+        border-radius: 7px;
+        padding: 2%
+     }
+
+     .about-me-section p, #project-description p {
+         font-size: 85%;
+     }
+
+     h2 {
+         font-size: 110%;
+    }
+
+
+
+    .project-section p {
+        font-size: 65%;
+    }
+
+    #project-description {
+        background-color: #03dac6;
+        margin: auto;
+        width: 100%;
+        margin-top: 10px;
+        border: 2px solid #1D8A99;
+        border-radius: 7px;
+        padding: 2%
+    }
+
+ }
