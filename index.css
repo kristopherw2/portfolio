@@ -16,12 +16,13 @@ body {
     flex-direction: row;
     justify-content: left;
 }
- h1 {
-     color: #bb86fc;
-     text-align: center;
-     margin-top: 5%;
-     margin-bottom: 1%;
-     font-family: 'Archivo black' 
+
+h1 {
+    color: #bb86fc;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-family: 'Archivo black'
 }
 
 .header-image {
@@ -37,14 +38,14 @@ body {
     width: 45%;
     border: 2px solid #1D8A99;
     border-radius: 7px;
- }
+}
 
- .about-me-section p {
+.about-me-section p {
     color: #360067;
- }
+}
 
 
- h2 {
+h2 {
     color: #bb86fc;
     text-align: center;
     margin-top: 7%;
@@ -52,78 +53,88 @@ body {
     font-family: 'Archivo black'
 }
 
- .project-section {
-     padding: 8px;
-     display: flex;
-     flex-direction: column;
-     align-content: center;
-     width: 100%;
+.project-section {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
 }
 
- .project-images {
-     height: 150px;
-     width: 150px;
-     margin: auto;
- }
+.project-images {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
 
- .technologies {
-     margin: auto;
-     color: #bb86fc;
-     margin-top: 5px;
- }
+.technologies {
+    margin: auto;
+    color: #bb86fc;
+    margin-top: 5px;
+}
 
- #project-description {
+.project-github {
+    text-decoration: underline;
+    font-weight: bold
+}
+
+.project-github:hover {
+    cursor: pointer;
+}
+
+.project-description {
     width: 45%;
     background-color: #03dac6;
     margin: auto auto;
     border: 2px solid #1D8A99;
     border-radius: 7px;
     margin-bottom: 10px;
- }
+}
 
- .project-font-color {
+.project-font-color {
     color: #360067;
- }
+}
 
- a:link {
-     text-decoration: none;
- }
+a:link {
+    text-decoration: none;
+}
 
 li {
-     cursor: pointer;
- } 
+    cursor: pointer;
+}
 
- .project-images:hover {  
+.project-images:hover {
     cursor: pointer;
     opacity: .9;
     filter: blur(1px);
-    background: linear-gradient (red, yellow);    
+    background: linear-gradient (red, yellow);
 }
 
-.contact-icons img:hover{
+.contact-icons img:hover {
     cursor: pointer;
 }
 
-#github-icon:hover, #linkdin-icon:hover, #emial-icon:hover {
-    
-}
+#github-icon:hover,
+#linkdin-icon:hover,
+#emial-icon:hover {}
 
- @media screen and (min-width: 320px){
-    
-    
+@media screen and (min-width: 320px) {
+
+
 
     .contact-icons img {
-        height: 15%;
-        width: 15%;
+        height: 50px;
+        width: 50px;
         padding: 1% 0 0 1%;
     }
 
-    h1{
+    .about-me-h1 {
         font-family: 'Archivo Black';
-        font-size: 95%; 
+        font-size: .7em;
+        text-align: center;
     }
 
-    .css-header{
+    .css-header {
         display: flex;
         flex-direction: column;
     }
@@ -143,21 +154,23 @@ li {
         border: 2px solid #1D8A99;
         border-radius: 7px;
         padding: 2%
-     }
+    }
 
-     .about-me-section p, #project-description p {
-         font-size: 85%;
-     }
+    .about-me-section p,
+    #project-description p {
+        font-size: 1em;
+    }
 
-     h2 {
-         font-size: 110%;
+
+    h2 {
+        font-size: 1.5em;
     }
 
     .project-section p {
-        font-size: 65%;
+        font-size: 1em;
     }
 
-    #project-description {
+    .project-description {
         background-color: #03dac6;
         margin: auto;
         width: 100%;
@@ -168,25 +181,26 @@ li {
         padding: 2%
     }
 
- }
+}
 
- @media screen and (min-width: 768px){
-    
+@media screen and (min-width: 768px) {
+
 
     .contact-icons img {
-        height: 6%;
-        width: 6%;
+        height: 75px;
+        width: 75px;
         padding: 1% 0 0 1%;
         margin-top: 1%;
     }
 
 
-    h1{
+    .about-me-h1 {
         font-family: 'Archivo Black';
-        font-size: 95%; 
+        font-size: 1em;
+        text-align: center;
     }
 
-    .css-header{
+    .css-header {
         display: flex;
         flex-direction: column;
     }
@@ -194,7 +208,6 @@ li {
     .header-image {
         height: 150px;
         width: 125px;
-        /* margin-left: 18%; */
         margin: auto;
         margin-top: 5px;
     }
@@ -202,31 +215,30 @@ li {
     .about-me-section {
         background-color: #03dac6;
         margin: auto;
-        width: 95%;
+        width: 75%;
         margin-top: 3%;
         border: 2px solid #1D8A99;
         border-radius: 7px;
         padding: 2%
-     }
+    }
 
-     .about-me-section p, #project-description p {
-         font-size: 85%;
-     }
+    .about-me-section p,
+    .project-description p {
+        font-size: 1em;
+    }
 
-     h2 {
-         font-size: 110%;
+    h2 {
+        font-size: 2em;
     }
 
 
 
-    .project-section p {
-        font-size: 65%;
-    }
 
-    #project-description {
+
+    .project-description {
         background-color: #03dac6;
         margin: auto;
-        width: 100%;
+        width: 75%;
         margin-top: 3%;
         margin-bottom: 5%;
         border: 2px solid #1D8A99;
@@ -234,47 +246,48 @@ li {
         padding: 2%
     }
 
- }
+}
 
- @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
-     .contact-icons img {
-         margin-top: .5%;
-     }
+    .contact-icons img {
+        margin-top: .5%;
+    }
 
-     h1 {
-        font-size: 100%;
-     }
+    .about-me-h1 {
+        font-size: 1.5em;
+        margin-top: 5%;
+        text-align: center;
+    }
 
-     .title-about-me {
-         margin-top: 5%;
-         font-size: 150%
-     }
-     .header-image {
-         height: 200px;
-         width: 175px;
-     }
-     
-     .about-me-section p {
-         font-size: 110%;
-     }
+    .header-image {
+        height: 200px;
+        width: 175px;
+    }
 
-     h2 {
-         font-size: 150%;
-     }
+    .about-me-section p {
+        font-size: 1em;
+    }
 
-     .project-images {
-         height: 200px;
-         width: 200px;
-     }
-     .project-section p {
-         font-size: 80%
-     }
-     #project-description {
-         width: 97%;
-     }
-     #project-description p {
-         font-size: 110%;
-     }
+    h2 {
+        font-size: 2em;
+    }
 
- }
+    .project-images {
+        height: 200px;
+        width: 200px;
+    }
+
+    .project-section p {
+        font-size: 1em;
+    }
+
+    .project-description {
+        width: 65%;
+    }
+
+    .project-description p {
+        font-size: 1em;
+    }
+
+}
