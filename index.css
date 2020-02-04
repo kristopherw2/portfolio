@@ -75,7 +75,8 @@ h2 {
 
 .project-github {
     text-decoration: underline;
-    font-weight: bold
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .project-github:hover {
